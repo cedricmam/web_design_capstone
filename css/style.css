@@ -1,0 +1,275 @@
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.nav__menu {
+    width: 100vw;
+    height: 3.5rem;
+    background-color: #fffffe;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav__list {
+    display: flex;
+    width: 95%;
+    margin-block-start: .5rem;
+    margin-block-end: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.5rem;
+    align-items: center;
+    color: #16161A;
+    font-size: 1.15rem;
+}
+
+.nav__link:hover {
+    color:  #7F5AF0;
+}
+
+.nav__link:hover .nav__icon {
+    background-color: #7F5AF0;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fffffe;
+}
+
+.nav__icon {
+    font-size: 1.25rem;
+}
+
+.active-link {
+    color: #7F5AF0;
+}
+
+.active-link .nav__icon {
+    background-color: #7F5AF0;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fffffe;
+}
+
+.nav__logo {
+    visibility: hidden;
+    display: flex;
+    column-gap: 1.5rem;
+    align-items: center;
+}
+
+.nav__logo a {
+    color: #16161A;
+}
+
+.nav__img {
+    width: 2.5rem;
+    border-radius: 50%;
+    border: .1rem solid #7F5AF0;
+}
+
+h1, h2, h3, p, span {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.home__title, .section__title {
+    font-weight: 700;
+    color: #2CB67D;
+}
+.home__subtitle, .section__subtitle {
+    text-align: center;
+    color: #fffffe;
+}
+
+.home__description, .about__description {
+    color: #94a1b2;
+    font-size: 1rem;
+}
+
+.main {
+    position: relative;
+    background-color: #16161A;
+    border-radius: 1.5rem;
+    top: -2.7rem;
+}
+
+
+.section {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home__image {
+    width: 95%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+.home__data {
+    justify-content: center;
+    text-align: center;
+  }
+
+.button {
+    display: inline-block;
+    background-color: #7F5AF0;
+    margin-bottom: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #fffffe;
+    justify-content: center;
+}
+
+.button:hover {
+    color: #ced6e0;
+}
+
+.button:hover .nav__icon {
+    padding-left: .25rem;
+}
+
+.about__image {
+    width: 100%;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.about__data {
+    justify-content: center;
+    text-align: center;
+}
+
+.education__data {
+    display: grid;
+    grid-template-columns: 5% 90%;
+    column-gap: 1rem;
+}
+
+.education__rounder {
+    display: inline-grid;
+    background-color: #fffffe;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.education__line {
+    display: grid;
+    width: 0.1rem;
+    height: 100%;
+    background-color: #fffffe;
+    transform: translate(0.5rem, -2rem);
+}
+
+.education__content {
+    align-items: flex-start;
+}
+
+.education__title {
+    justify-content: left;
+    display: grid;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    color: #45DFB1;
+}
+
+.education__subtitle {
+    color: #E9F5DB;
+}
+
+.education__calendar {
+    margin-left: 1rem;
+    margin-top: .5rem;
+    color: #ced6e0;
+}
+
+.contact {
+    margin: 1.5rem auto;
+}
+
+.portfolio__content {
+    margin-top: 1.5rem;
+}
+
+.portfolio__description {
+    color: #94a1b2;
+}
+
+.contact__content {
+    display: grid;
+    margin: 1rem 0;
+}
+
+.contact__information {
+    display: grid;
+    grid-template-columns: 25% 70%;
+}
+
+.contact__icon {
+    color: #7F5AF0;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.contact__title {
+    color: #E9F5DB;
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.contact__link {
+    color: #7F5AF0;
+}
+
+.contact__link:hover {
+    color: #533d94;
+    
+}
