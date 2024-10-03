@@ -1,3 +1,9 @@
+
+@import url("//fonts.googleapis.com/css?family=Product+Sans");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
 body {
     width: 100%;
     margin-left: auto;
@@ -287,12 +293,63 @@ main {
     margin-right: auto;
     width: 95%;
     position: relative;
-    background-color: blue;
-    color: aquamarine;
+    background-color: #7F5AF0;
     bottom: 3rem;
     border-radius: 0 0 .5rem .5rem;
+}
+
+.footer__copy {
+    color: #fffffe;
 }
 .calendar__description {
     margin-top: 1.5rem;
     color: #fffffe;
+}
+
+.copy__logo {
+    display: grid;
+    grid-template-columns: 4rem auto;
+}
+
+.copy__img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+
+.copy__desc {
+    margin-left: .75rem;
+    justify-self: center;
+    margin-top: 1rem;
+    color: #fffffe;
+}
+
+.copy__desc:hover {
+    color: #ced6e0;
+}
+
+.copy__content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.copy__link {
+    display: grid;
+    margin-top: auto;
+    grid-template-columns: min-content min-content min-content;
+}
+
+.copy__icon {
+    color: #fffffe;
+    font-size: 2rem;
+    margin: 0 .25rem auto;
+}
+
+.copy__icon:hover {
+    color: #ced6e0;
 }
