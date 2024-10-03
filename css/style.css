@@ -263,25 +263,26 @@ main {
 }
 
 .contact__icon {
-    color: #7F5AF0;
-    font-size: 4rem;
+    color: #9272F3;
+    font-size: 3rem;
     font-weight: 300;
+    margin-top: 1.5rem;
+    justify-self: center;
 }
-
 .contact__title {
     color: #E9F5DB;
     text-align: left;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: .5rem;
 }
 
 .contact__link {
-    color: #7F5AF0;
+    color: #9272F3;
+    font-size: 1.25rem;
 }
 
 .contact__link:hover {
-    color: #533d94;
-    
+    color: #B9A4F9;
 }
 
 .contact__container {
@@ -345,11 +346,18 @@ main {
 }
 
 .copy__icon {
+    display: grid;
     color: #fffffe;
-    font-size: 2rem;
+    font-size: .75rem;
     margin: 0 .25rem auto;
 }
 
-.copy__icon:hover {
+.copyright__icon {
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
+.copy__icon:hover, .copyright__icon:hover {
     color: #ced6e0;
 }
+
