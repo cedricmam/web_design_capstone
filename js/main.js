@@ -5,7 +5,7 @@ function scrollActive(){
 
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop ;
+        const sectionTop = current.offsetTop -300 ;
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
@@ -16,3 +16,4 @@ function scrollActive(){
     }) 
 }
 window.addEventListener('scroll', scrollActive)
+

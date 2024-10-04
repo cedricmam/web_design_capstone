@@ -11,7 +11,7 @@ body {
 }
 
 
-a {
+a, a:hover, a:active, a:any-link {
     text-decoration: none;
 }
 
@@ -137,6 +137,11 @@ h1, h2, h3, p, span {
 }
 
 main {
+    display: grid;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5rem;
     position: relative;
     background-color: #16161A;
     border-radius: .5rem .5rem 0 0;
@@ -453,8 +458,73 @@ main {
 }
 .calendar__description {
     margin-top: 1.5rem;
-    color: #fffffe;
+    color: #0d0d00;
 }
 
     
+ }
+
+ @media all and (min-width: 768px) {
+    .nav__logo {
+        visibility: visible;
+    }
+
+    .nav__container {
+        position: fixed;
+        grid-template-columns: 30% auto;
+        z-index: 100;
+        width: 95vw;
+        background-color: #fffffe;
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 2.5vw;
+        right: auto;
+        height: 3rem;
+    }
+
+    .nav__logo {
+        visibility: visible;
+        display: flex;
+        column-gap: 1.5rem;
+        align-items: center;
+        justify-content: flex-start;
+        height: 2.5rem;
+    }
+    
+    .nav__logo a {
+        color: #16161A;
+        font-size: 1.15rem;
+    }
+
+    .nav__menu {
+        width: auto;
+        height: 2.5rem;
+        background-color: #fffffe;
+        bottom: auto;
+        position: relative;
+        left: auto;
+        z-index: 0;
+    }
+
+    .nav__list {
+        height: 2.5rem;
+        margin-block-start: .25rem;
+        margin-block-end: .25rem;
+    }
+
+    .nav__link {
+        font-size: 1rem;
+    }
+    
+    .container {
+        grid-template-columns: 47% 47%;
+    }
+
+
+
+    main {
+        top: 2.5rem;
+        
+    }
  }

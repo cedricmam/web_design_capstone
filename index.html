@@ -7,7 +7,6 @@
     <title>Portfolio Project</title>
 
     <script src="https://kit.fontawesome.com/4ed22944ce.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -63,11 +62,11 @@
             </nav>
         </header>
         
-        <main class="main container">
+        <main class="main">
     
             <section class="home section" id="home">
-                <div class="home__bg container">
-                    <div class="home__content grid">
+                <div class="home__bg">
+                    <div class="home__content container grid">
                         <img src="img/einstein.jpg" alt="hilarious pic of Albert einstein" class="home__image">
         
                         <div class="home__data">
@@ -84,7 +83,7 @@
             </section>
     
             <section class="about section" id="about">
-                <div class="about__container container grid">
+                <div class="about__container grid">
     
                     <div class="about__header grid">
                         <h2 class="section__title">About Me</h2>
@@ -105,18 +104,18 @@
                             
                             <div class="about__data">
                                 <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas quod distinctio illum quos reiciendis a pariatur exercitationem praesentium tempora, nulla quasi dolor non voluptate perferendis minus fugit facere cupiditate?</p>
-                                <a download="" href="pdf/cedric-Cv.pdf" class="button button--flex"> Download CV
-                                    <i class="fa-solid fa-download button__icon"></i>
-                                </a>
                             </div>
                         </div>
     
                     </div>
+                    <div class="contact"><a download="" href="pdf/cedric-Cv.pdf" class="button button--flex"> Download CV
+                        <i class="fa-solid fa-download button__icon"></i>
+                    </a></div>
                 </div>
             </section>
     
             <section class="education section" id="education">
-                <div class="education__container container grid">
+                <div class="education__container grid">
     
                     <div class="qualification__header grid">
                         <h2 class="section__title">Education</h2>
@@ -200,94 +199,98 @@
     
             <section class="portfolio section" id="portfolio">
                 
-                <div class="portfolio__container container grid">
+                <div class="portfolio__container grid">
     
                     <div class="portfolio__header grid">
                         <h2 class="section__title">Portfolio</h2>
                         <span class="section__subtitle">Here are some of my work</span>
                     </div>
                     
-    
-                    <div class="portfolio__content grid">
-                        <img src="img/github.jpg" alt="Image to my github" class="portfolio__img">
-    
-                        <div class="potfolio__data">
-                            <p class="portfolio__description">Come and visit my Github account to see my work</p>
-    
-                            <div class="portfolio__button">
-                                <a href="https://github.com/cedricmam" target="_blank" class="button--flex button--small button">Go to Github <i class="fa-brands fa-github nav__icon"></i></a>
+                    <div class="container">
+                        <div class="portfolio__content grid">
+                            <img src="img/github.jpg" alt="Image to my github" class="portfolio__img">
+        
+                            <div class="potfolio__data">
+                                <p class="portfolio__description">Come and visit my Github account to see my work</p>
+        
+                                <div class="portfolio__button">
+                                    <a href="https://github.com/cedricmam" target="_blank" class="button--flex button--small button">Go to Github <i class="fa-brands fa-github nav__icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="portfolio__content grid">
+                            <img src="img/replit.jpg" alt="Image to my replit" class="portfolio__img">
+        
+                            <div class="potfolio__data">
+                                <p class="portfolio__description">Come and visit my Replit account to see my work</p>
+        
+                                <div class="portfolio__button">
+                                    <a href="https://replit.com/@amaminiainacedr" target="_blank" class="button--flex button--small button">Go to Replit <i class="fa-brands fa-replyd nav__icon"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="portfolio__content grid">
-                        <img src="img/replit.jpg" alt="Image to my replit" class="portfolio__img">
-    
-                        <div class="potfolio__data">
-                            <p class="portfolio__description">Come and visit my Replit account to see my work</p>
-    
-                            <div class="portfolio__button">
-                                <a href="https://replit.com/@amaminiainacedr" target="_blank" class="button--flex button--small button">Go to Replit <i class="fa-brands fa-replyd nav__icon"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
     
             <section class="contact section" id="contact">
-                <div class="contact__container cntainer grid">
+                <div class="contact__container grid">
                     <div class="contact__header grid">                    
                         <h2 class="section__title">Contact</h2>
                         <span class="section__subtitle">I'm available for some project and coworking</span>               
                     </div>
     
-                    <div class="contact__content">
-                        <div class="contact__information">
-                            <i class="fa-solid fa-envelope contact__icon"></i>
-        
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <a href="mailto:cedric@example.com" target="_blank" class="contact__link">cedric@example.com</a>
+                    <div class="container">
+                        <div class="contact__content">
+                            <div class="contact__information">
+                                <i class="fa-solid fa-envelope contact__icon"></i>
+            
+                                <div>
+                                    <h3 class="contact__title">Email</h3>
+                                    <a href="mailto:cedric@example.com" target="_blank" class="contact__link">cedric@example.com</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="contact__content">
-                        <div class="contact__information">
-                            <i class="fa-brands fa-facebook contact__icon"></i>
         
-                            <div>
-                                <h3 class="contact__title">Facebook</h3>
-                                <a href="https://www.facebook.com/" target="_blank" class="contact__link">Cedric</a>
+                        <div class="contact__content">
+                            <div class="contact__information">
+                                <i class="fa-brands fa-facebook contact__icon"></i>
+            
+                                <div>
+                                    <h3 class="contact__title">Facebook</h3>
+                                    <a href="https://www.facebook.com/" target="_blank" class="contact__link">Cedric</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="contact__content">
-                        <div class="contact__information">
-                            <i class="fa-brands fa-instagram contact__icon"></i>
-        
-                            <div>
-                                <h3 class="contact__title">Instagram</h3>
-                                <a href="https://www.instagram.com" target="_blank" class="contact__link">Cedric</a>
+                        
+                        <div class="contact__content">
+                            <div class="contact__information">
+                                <i class="fa-brands fa-instagram contact__icon"></i>
+            
+                                <div>
+                                    <h3 class="contact__title">Instagram</h3>
+                                    <a href="https://www.instagram.com" target="_blank" class="contact__link">Cedric</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="contact__content">
-                        <div class="contact__information">
-                            <i class="fa-brands fa-linkedin contact__icon"></i>
-        
-                            <div>
-                                <h3 class="contact__title">LinkedIn</h3>
-                                <a href="https://www.linkedin.com" target="_blank" class="contact__link">Cedric</a>
+                        
+                        <div class="contact__content">
+                            <div class="contact__information">
+                                <i class="fa-brands fa-linkedin contact__icon"></i>
+            
+                                <div>
+                                    <h3 class="contact__title">LinkedIn</h3>
+                                    <a href="https://www.linkedin.com" target="_blank" class="contact__link">Cedric</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="calendar grid">
-                    <p class="calendar__description">Feel free to save for an online meeting fos your project.</p>
+                    <p class="calendar__description">Feel free to save for an online meeting for your project.</p>
                     <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&ctz=Africa%2FNairobi&bgcolor=%23ffffff&mode=AGENDA&src=ZTAwMGQ4NzNiYjI3MmFkMmM0ZTQ4ODc0MzFhZjlmNjViZThkZjU1ZTYzNmYxNDE2ZDBjNmNkNDMzOWFiMGZmNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZnIubWcjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4&color=%230B8043" style="border:solid 1px #777" width="300" height="200" frameborder="0" scrolling="no"></iframe>
                 </div>
             </section>
@@ -314,5 +317,7 @@
             <p class="footer__copy">&#169; Maminiaina Cedric 2024 . All right reserved</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
