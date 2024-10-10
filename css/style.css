@@ -383,28 +383,28 @@ main {
     }
 
     img {
-        border: .15rem solid #ff8e3c;
+        border: .15rem solid #943E00;
     }
 
     .nav__link:hover {
-        color:  #ff8e3c;
+        color:  #943E00;
     }
     .nav__link:hover .nav__icon {
-        background-color: #ff8e3c;
+        background-color: #943E00;
         color: #fffffe;
     }
     
     .active-link {
-        color: #ff8e3c;
+        color: #943E00;
     }
 
     .active-link .nav__icon {
-        background-color: #ff8e3c;
+        background-color: #943E00;
         color: #fffffe;
     }
     
     .nav__img {
-        border: .1rem solid #ff8e3c;
+        border: .1rem solid #943E00;
     }
 
     .home__title, .section__title {
@@ -422,7 +422,7 @@ main {
     }
 
     .button {
-        background-color: #ff8e3c;
+        background-color: #943E00;
         color: #fffffe;
     }
 
