@@ -579,4 +579,9 @@ main {
         margin-left: 4rem;
     }
 
+    .footer__container {
+        width: 100%;
+        max-width: 1024px;
+    }
+
  }
